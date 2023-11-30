@@ -19,4 +19,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("MenuScene");
     }
+
+    public void BtnMultiplayer()
+    {
+        SceneManager.LoadScene("MultiplayerScene");
+    }
 }

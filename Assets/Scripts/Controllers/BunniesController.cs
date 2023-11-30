@@ -55,17 +55,6 @@ public class BunniesController : MonoBehaviour
         bunnies[i].transform.Find("Details").gameObject.GetComponent<SpriteRenderer>().color = bunnieColors[colorBunny].detailColor;
     }
 
-    
-
-    public void RestartBunnies()
-    {
-        for (int i = 0; i < bunnies.Length; i++)
-        {
-            ColorizeBunnies(i);
-        }
-    }
-
-
     private void InitializeColor()
     {
         bunnieColors[0].bodyColor = new Color(175f / 255f, 1, 1, 1);
